@@ -1,0 +1,2 @@
+{"question": "Write a function to subtract two numbers.", "task": "coding", "reference": "def subtract(a, b): return a - b"}
+{"question": "Write a Python function to multiply two numbers.", "task": "coding", "reference": "def multiply(a, b): return a * b"}

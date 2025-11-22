@@ -1,0 +1,5 @@
+router:
+  exploration: 0.1
+storage:
+  stats_path: "storage/router_stats.json"
+  feedback_path: "storage/feedback_log.jsonl"

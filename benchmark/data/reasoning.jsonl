@@ -1,0 +1,50 @@
+{"question": "Tom is older than Sam. Sam is older than Bob. Who is the youngest?", "task": "reasoning", "reference": "Bob"}
+{"question": "A is taller than B. C is taller than A. Who is the tallest?", "task": "reasoning", "reference": "C"}
+{"question": "If all squares are rectangles and all rectangles are shapes, what can you say about squares?", "task": "reasoning", "reference": "Squares are shapes"}
+{"question": "A train leaves at 3 PM and arrives at 6 PM. How long is the journey?", "task": "reasoning", "reference": "3 hours"}
+{"question": "If 5 pencils cost $10, how much does 1 pencil cost?", "task": "reasoning", "reference": "$2"}
+{"question": "If the opposite of up is down, what is the opposite of left?", "task": "reasoning", "reference": "Right"}
+{"question": "What comes next in the pattern: 2, 4, 8, 16, ...?", "task": "reasoning", "reference": "32"}
+{"question": "If today is Monday, what day will it be after 3 days?", "task": "reasoning", "reference": "Thursday"}
+{"question": "If a book costs $15 and you have $10, how much more money do you need?", "task": "reasoning", "reference": "$5"}
+{"question": "Which is heavier: 1 kg of iron or 1 kg of cotton?", "task": "reasoning", "reference": "They weigh the same"}
+{"question": "If all dogs can bark and Max is a dog, what can Max do?", "task": "reasoning", "reference": "Bark"}
+{"question": "Which number is missing: 10, 20, 30, __, 50?", "task": "reasoning", "reference": "40"}
+{"question": "If John is riding a bicycle, which vehicle is he using?", "task": "reasoning", "reference": "Bicycle"}
+{"question": "What comes next: A, B, C, D, ...?", "task": "reasoning", "reference": "E"}
+{"question": "If a triangle has 3 sides, how many sides does a pentagon have?", "task": "reasoning", "reference": "5"}
+{"question": "If a < b and b < c, then a < c is?", "task": "reasoning", "reference": "True"}
+{"question": "You see lightning and hear thunder after 5 seconds. Which happened first?", "task": "reasoning", "reference": "Lightning"}
+{"question": "A pizza has 8 slices. You eat 3. How many slices remain?", "task": "reasoning", "reference": "5"}
+{"question": "If a car travels east for 10 km, which direction did it move?", "task": "reasoning", "reference": "East"}
+{"question": "Which is larger: 0.5 or 0.7?", "task": "reasoning", "reference": "0.7"}
+{"question": "If apples are fruit and fruit is food, apples are?", "task": "reasoning", "reference": "Food"}
+{"question": "What comes next in: 5, 10, 15, 20, ...?", "task": "reasoning", "reference": "25"}
+{"question": "A dozen means how many?", "task": "reasoning", "reference": "12"}
+{"question": "If winter is cold, what season is generally hot?", "task": "reasoning", "reference": "Summer"}
+{"question": "Which shape has 4 equal sides and 4 right angles?", "task": "reasoning", "reference": "Square"}
+{"question": "If birds can fly and a parrot is a bird, what can a parrot do?", "task": "reasoning", "reference": "Fly"}
+{"question": "If 1 hour = 60 minutes, how many minutes are in 2 hours?", "task": "reasoning", "reference": "120"}
+{"question": "A mother has 3 more candies than her 2 children combined. If children have 5 each, how many does she have?", "task": "reasoning", "reference": "13"}
+{"question": "Which day comes before Sunday?", "task": "reasoning", "reference": "Saturday"}
+{"question": "If x > y and y > z, which is smallest?", "task": "reasoning", "reference": "z"}
+{"question": "What comes next: 1, 1, 2, 3, 5, 8, ...?", "task": "reasoning", "reference": "13"}
+{"question": "If you freeze water, what does it become?", "task": "reasoning", "reference": "Ice"}
+{"question": "If you boil water, what does it become?", "task": "reasoning", "reference": "Steam"}
+{"question": "Which animal is known as man's best friend?", "task": "reasoning", "reference": "Dog"}
+{"question": "If a = 3 and b = 4, what is a + b?", "task": "reasoning", "reference": "7"}
+{"question": "Which is faster: a cheetah or a turtle?", "task": "reasoning", "reference": "Cheetah"}
+{"question": "If it is raining, what do people usually carry?", "task": "reasoning", "reference": "Umbrella"}
+{"question": "What comes after 99?", "task": "reasoning", "reference": "100"}
+{"question": "If cars need fuel, what does a phone need?", "task": "reasoning", "reference": "Battery/Charge"}
+{"question": "Which planet do humans live on?", "task": "reasoning", "reference": "Earth"}
+{"question": "If 7 days make a week, how many weeks in 28 days?", "task": "reasoning", "reference": "4"}
+{"question": "What starts the sequence: D, E, F, ...?", "task": "reasoning", "reference": "C"}
+{"question": "What is larger: one-half or one-third?", "task": "reasoning", "reference": "One-half"}
+{"question": "If a pen is used to write, what is a phone used for?", "task": "reasoning", "reference": "Calling/Communication"}
+{"question": "If 12 is even, what is 13?", "task": "reasoning", "reference": "Odd"}
+{"question": "If someone is awake, they are not?", "task": "reasoning", "reference": "Asleep"}
+{"question": "Which weighs more: 1000 grams or 1 kilogram?", "task": "reasoning", "reference": "They weigh the same"}
+{"question": "What is the capital of India?", "task": "reasoning", "reference": "New Delhi"}
+{"question": "Which shape rolls easily: a sphere or a cube?", "task": "reasoning", "reference": "Sphere"}
+{"question": "If night is dark, day is?", "task": "reasoning", "reference": "Bright"}
