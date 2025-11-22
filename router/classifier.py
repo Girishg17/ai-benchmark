@@ -16,7 +16,7 @@ def classify_task(question:str)->TaskType:
     reasoning_keywords = ["why","how","explain","reason","cause","effect","analyze","interpret"]
     summarization_keywords = ["summarize","summary","brief","condense","shorten","main points","key points"]        
     math_keywords = ["calculate","solve","equation","math","geometry","algebra","arithmetic","number","sum","difference","product","quotient"]
-    image_generation_keywords = ["generate image","create image","draw","illustrate","picture of","visualize","design"]
+    image_generation_keywords = ["generate image","create image","draw","illustrate","picture of","visualize","design","artwork","photo of","image showing","make an image","visual representation","visual"]
 
     if any (keywords in  q for keywords in coding_keywrods):
         return TaskType.CODING

@@ -2,18 +2,32 @@
   "coding": {
     "openai-gpt4": {
       "successes": 2.0,
-      "trials": 2
+      "trials": 9
     },
     "image_gen": {
       "successes": 2.0,
       "trials": 2
     },
     "perplexity-ai": {
-      "successes": 2.0,
-      "trials": 2
+      "successes": 11.0,
+      "trials": 11
     }
   },
   "general": {
+    "openai-gpt4": {
+      "successes": 0.0,
+      "trials": 2
+    },
+    "image_gen": {
+      "successes": 0.0,
+      "trials": 0
+    },
+    "perplexity-ai": {
+      "successes": 5.0,
+      "trials": 5
+    }
+  },
+  "translation": {
     "openai-gpt4": {
       "successes": 0.0,
       "trials": 1
@@ -27,24 +41,10 @@
       "trials": 1
     }
   },
-  "translation": {
-    "openai-gpt4": {
-      "successes": 0.0,
-      "trials": 0
-    },
-    "image_gen": {
-      "successes": 0.0,
-      "trials": 0
-    },
-    "perplexity-ai": {
-      "successes": 0.0,
-      "trials": 0
-    }
-  },
   "reasoning": {
     "openai-gpt4": {
       "successes": 0.0,
-      "trials": 0
+      "trials": 1
     },
     "image_gen": {
       "successes": 0.0,

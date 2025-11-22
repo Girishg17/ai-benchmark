@@ -2,7 +2,7 @@
 models:
   - name: openai-gpt4
     provider: openai
-    strengths: [general, reasoning, coding]
+    strengths: [general, reasoning, coding,translation]
     cost: 1.5
 
   - name: image_gen
@@ -12,5 +12,5 @@ models:
 
   - name: perplexity-ai
     provider: perplexity
-    strengths: [general, reasoning]
+    strengths: [general, reasoning,coding,translation]
     cost: 1.2

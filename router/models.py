@@ -12,9 +12,11 @@ import json
 
 import os
 from openai import OpenAI
+from dotenv import load_dotenv
 
 # openai.api_key = os.getenv("OPENAI_API_KEY")
-client = OpenAI()
+load_dotenv()
+client = client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 @dataclass
 class ModelClient:
@@ -39,6 +41,7 @@ class ModelClient:
 #     )
 #     return response.choices[0].message.content.strip()
 
+
 def call_openai_gpt4(prompt: str, opts: Dict[str, Any]) -> str:
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -61,7 +64,7 @@ def call_rapid_api(prompt: str, opts: Dict[str, Any] = {}) -> str:
     
 
     headers = {
-    'x-rapidapi-key': "395871067emshf9082b1d8a615bbp1da357jsn28416e7a4c3c",
+    'x-rapidapi-key': os.getenv("RAPIDAPI_API_KEY"),
     'x-rapidapi-host': "chatgpt-42.p.rapidapi.com",
     'Content-Type': "application/json"
 }
@@ -87,7 +90,7 @@ def image_generation(prompt: str, opts: Dict[str, Any] = {}) -> bytes:
     
 
     headers = {
-    'x-rapidapi-key': "395871067emshf9082b1d8a615bbp1da357jsn28416e7a4c3c",
+    'x-rapidapi-key': os.getenv("RAPIDAPI_API_KEY"),
     'x-rapidapi-host': "chatgpt-42.p.rapidapi.com",
     'Content-Type': "application/json"
     }
@@ -107,7 +110,7 @@ def call_per_plexity_ai(prompt: str, opts: Dict[str, Any]) -> str:
         })
 
     headers = {
-    'x-rapidapi-key': "395871067emshf9082b1d8a615bbp1da357jsn28416e7a4c3c",
+    'x-rapidapi-key': os.getenv("RAPIDAPI_API_KEY"),
     'x-rapidapi-host': "perplexity2.p.rapidapi.com",
     'Content-Type': "application/json"
 }
@@ -116,8 +119,10 @@ def call_per_plexity_ai(prompt: str, opts: Dict[str, Any]) -> str:
     res = conn.getresponse()
     raw_data = res.read().decode("utf-8")
     data = json.loads(raw_data)
-    print( data["choices"]["content"]["parts"][0]["text"])
-    return data["choices"]["content"]["parts"][0]["text"]
+
+    parts = data["choices"]["content"]["parts"]
+    full_text = "".join(p["text"] for p in parts)
+    return full_text
 
 
 
