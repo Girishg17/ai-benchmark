@@ -1,2 +1,4 @@
 pyyaml
 tqdm
+dotenv
+openai
