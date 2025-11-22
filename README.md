@@ -44,17 +44,18 @@ python -m scripts.run_offline_bench
 ```
 Basically It request for your model and assigns the score for your model with the predetermined benchmark question.
 
+Note: not recommended as API hit extreme so you might expire api request per day
+
 ### Interactive CLI (Recommended)
 
 Start the interactive command line interface to ask questions and get routed answers:
 ```
 python -m scripts.cli
 ```
-Start the interactive command line interface to ask questions and get routed answers:
 
 Type your question, provide feedback on answers (y/n), or exit with `exit` or `quit`.
 
-It would update the score for wach model based on your feedback.
+It would update the score for model based on your feedback.
 
 The routing system balances exploration and exploitation (using [UCB] (https://www.geeksforgeeks.org/machine-learning/upper-confidence-bound-algorithm-in-reinforcement-learning/) ) to ensure every model, including new or less-tested ones, gets a fair chance to be selected and evaluated over time 
 
