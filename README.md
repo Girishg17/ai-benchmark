@@ -1,4 +1,4 @@
-# AI Benchmark Project
+# AI Benchmark
 
 This project implements a multi-model routing system that benchmarks and routes user queries to the best AI models dynamically. It supports offline benchmarking, model routing with exploration-exploitation strategies, and API integrations with OpenAI, Perplexity AI, and others.
 
